@@ -11,6 +11,15 @@ class ShowGuest {
 
     public function display($guests) {
         ?>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Guestbook</title>
+            <link rel="stylesheet" href="www/css/styles.css">
+        </head>
+    <body>
+    <h1>View All Guests</h1>
         <table>
             <thead>
             <tr>
@@ -33,6 +42,8 @@ class ShowGuest {
         </table>
 
         <p><a href="index.php">Back to Home</a></p>
+    </body>
+        </html>
         <?php
     }
 

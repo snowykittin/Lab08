@@ -9,8 +9,18 @@ class SignGuest {
 
     public function display() {
         ?>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Guestbook</title>
+            <link rel="stylesheet" href="www/css/styles.css">
+        </head>
+        <body>
         <p>Thank you for signing the guestbook!</p>
         <p><a href="index.php?action=list">View All Guests</a></p>
+        </body>
+        </html>
         <?php
     }
 
