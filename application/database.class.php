@@ -1,5 +1,10 @@
 <?php
-
+/*
+ * Author: Summer Sexton
+ * Date: 04/03/2023
+ * Name: database.class.php
+ * Description: This class establishes a database connection.
+ */
 
 class Database
 {
@@ -22,7 +27,6 @@ class Database
         );
         if (mysqli_connect_errno() != 0) {
             $message = "Connecting database failed: " . mysqli_connect_error() . ".";
-            include 'error.php';
             exit();
         }
     }
